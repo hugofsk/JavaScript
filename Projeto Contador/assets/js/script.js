@@ -1,18 +1,11 @@
-let count = 0;
-
-const CURRENT_NUMBER = document.getElementById('currentNumber');
-
+var currentNumberWrapper = document.getElementById("currentNumber");
+var currentNumber = 0;
 function increment() {
-	count++;
-	CURRENT_NUMBER.innerHTML = count;
+	currentNumber = currentNumber + 1;
+	currentNumberWrapper.innerHTML = currentNumber;
 }
 
 function decrement() {
-	count--;
-	CURRENT_NUMBER.innerHTML = count;
+	currentNumber = currentNumber - 1;
+	currentNumberWrapper.innerHTML = currentNumber;
 }
-
-function test() {
-	kdowkdpo;
-}
-© 2022 GitHub, Inc.
