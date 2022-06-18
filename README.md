@@ -1,1 +1,1 @@
-Projetos do cursod e Introdução ao JavaScript
+Projetos do curso de Introdução ao JavaScript
